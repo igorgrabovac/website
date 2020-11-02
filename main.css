@@ -38,6 +38,7 @@ nav ul li {
 }
 
 nav ul img {
+    margin-right: 5px;
     width: 50px;
     position: absolute;
     margin-top: 25px;
