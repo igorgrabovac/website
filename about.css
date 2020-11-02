@@ -1,0 +1,366 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Amatic SC', cursive;
+    font-weight: 800;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+nav {
+    width: 100%;
+    height: 100px;
+    display: inline-block;
+    background-color: white;
+}
+
+nav #logo {
+    width: 100px;
+    position: relative;
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul {
+    display: inline;
+    float: right;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 100px;
+    font-size: 48px;
+    line-height: 100px;
+}
+
+nav ul img {
+    width: 50px;
+    position: absolute;
+    margin-top: 25px;
+}
+
+nav ul #fb {
+    right: 150px;
+}
+
+main {
+    width: 100%;
+    height: 1000px;
+    background-image: url("/images/m5.jpg");
+    background-size: cover;
+    background-position-y: -600px;
+}
+
+main h1 {
+    text-align: center;
+    font-size: 60px;
+    margin-top: 200px;
+}
+
+main h2 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.clr {
+    clear: both;
+}
+
+.div1 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+    height: 100px;
+    background-color: #cf81cf;
+}
+
+.div1 h1 {
+    text-align: center;
+    font-size: 50px;
+    line-height: 100px;
+    color: #fff;
+}
+
+.text1 {
+    width: 50%;
+    float: left;
+}
+
+.text1 p {
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    padding: 20px;
+}
+
+.img1 img {
+    width: 50%;
+    height: 500px;
+    float: right;
+}
+
+.div2 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+    height: 100px;
+    background-color: #cf81cf;
+}
+
+.div2 h1 {
+    text-align: center;
+    font-size: 50px;
+    line-height: 100px;
+    color: #fff;
+}
+
+.text2 {
+    width: 50%;
+    float: right;
+}
+
+.text2 p {
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    padding: 20px;
+}
+
+.img2 img {
+    width: 50%;
+    height: 500px;
+    float: left;
+}
+
+.div3 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+    height: 100px;
+    background-color: #cf81cf;
+}
+
+.div3 h1 {
+    text-align: center;
+    font-size: 50px;
+    line-height: 100px;
+    color: #fff;
+}
+
+.text3 {
+    width: 50%;
+    float: left;
+}
+
+.text3 p {
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    padding: 20px;
+}
+
+.img3 img {
+    width: 50%;
+    height: 500px;
+    float: right;
+}
+
+@media(max-width: 2150px) {
+    main {
+        width: 100%;
+        height: 800px;
+        background-image: url("/images/m5.jpg");
+        background-size: cover;
+        background-position-y: -250px;
+    }
+}
+
+@media(max-width: 1400px) {
+    nav {
+        height: 50px;
+    }
+    nav #logo {
+        width: 50px;
+        margin-left: 10px;
+    }
+    nav ul li {
+        display: inline;
+        margin: 0 30px;
+        font-size: 38px;
+        line-height: 50px;
+    }
+    nav ul img {
+        width: 30px;
+        position: absolute;
+        margin-top: 10px;
+    }
+    nav ul #fb {
+        right: 50px;
+    }
+    main {
+        width: 100%;
+        height: 400px;
+        background-image: url("/images/m5.jpg");
+        background-size: cover;
+        background-position-y: 400px;
+    }
+    main h1 {
+        text-align: center;
+        font-size: 60px;
+        margin-top: 20px;
+    }
+    main h2 {
+        text-align: center;
+        font-size: 40px;
+    }
+}
+
+@media(max-width:800px) {
+    nav {
+        width: 100%;
+        height: 50px;
+        display: inline-block;
+        background-color: white;
+    }
+    nav #logo {
+        width: 30px;
+        margin-top: 10px;
+        position: relative;
+        display: inline;
+        margin-left: 10px;
+    }
+    nav ul {
+        display: inline;
+        float: right;
+    }
+    nav ul li {
+        display: inline;
+        margin: 0 15px;
+        font-size: 28px;
+        line-height: 50px;
+    }
+    nav ul img {
+        width: 30px;
+        position: absolute;
+        margin-top: 10px;
+    }
+    nav ul #fb {
+        right: 20px;
+    }
+    main {
+        width: 100%;
+        height: 300px;
+        background-image: url("/images/m5.jpg");
+        background-size: cover;
+        background-position-y: 0px;
+    }
+    main h1 {
+        text-align: center;
+        font-size: 50px;
+        margin-top: 50px;
+    }
+    main h2 {
+        text-align: center;
+        font-size: 40px;
+    }
+    .clr {
+        clear: both;
+    }
+    .div1 {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        width: 100%;
+        height: 100px;
+        background-color: #cf81cf;
+    }
+    .div1 h1 {
+        text-align: center;
+        font-size: 30px;
+        line-height: 100px;
+        color: #fff;
+    }
+    .text1 {
+        width: 100%;
+        float: left;
+    }
+    .text1 p {
+        font-size: 20px;
+        font-family: 'Playfair Display', serif;
+        text-align: center;
+        padding: 20px;
+    }
+    .img1 img {
+        width: 100%;
+        height: 300px;
+        float: right;
+    }
+    .div2 {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        width: 100%;
+        height: 100px;
+        background-color: #cf81cf;
+    }
+    .div2 h1 {
+        text-align: center;
+        font-size: 30px;
+        line-height: 100px;
+        color: #fff;
+    }
+    .text2 {
+        width: 100%;
+        float: right;
+    }
+    .text2 p {
+        font-size: 20px;
+        font-family: 'Playfair Display', serif;
+        text-align: center;
+        padding: 20px;
+    }
+    .img2 img {
+        width: 100%;
+        height: 400px;
+        float: left;
+    }
+    .div3 {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        width: 100%;
+        height: 100px;
+        background-color: #cf81cf;
+    }
+    .div3 h1 {
+        text-align: center;
+        font-size: 30px;
+        line-height: 100px;
+        color: #fff;
+    }
+    .text3 {
+        width: 100%;
+        float: left;
+    }
+    .text3 p {
+        font-size: 20px;
+        font-family: 'Playfair Display', serif;
+        text-align: center;
+        padding: 20px;
+    }
+    .img3 img {
+        width: 100%;
+        height: 300px;
+        float: right;
+    }
+}
+
+@media(max-width:408px) {
+    .div1 h1 {
+        text-align: center;
+        font-size: 30px;
+        line-height: 50px;
+        color: #fff;
+    }
+}
